@@ -3,6 +3,7 @@ import { Grid } from "@material-ui/core";
 import CardHome from './CardHome';
 
 const Home = ({ title, subheader, img, bio, avatar }) => {
+
     return (
         <Grid container direction="column">
             <Grid item container>

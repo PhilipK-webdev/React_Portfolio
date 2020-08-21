@@ -1,5 +1,5 @@
 import React from "react";
-import CardHome from "./CardHome";
+import CardPortfolio from './CardPortfolio'
 import { Grid } from "@material-ui/core";
 import imageGroup from '../images/groupProject.PNG';
 import imageGif from '../images/Gif-project.PNG';
@@ -18,8 +18,8 @@ const Portfolio = () => {
 
     const displayCard = (img, index) => {
         return (
-            <Grid item xs={12} sm={6}>
-                <CardHome key={index} img={img} />
+            <Grid item xs={12} sm={4} key={index}>
+                <CardPortfolio img={img} />
             </Grid>
         )
     }
