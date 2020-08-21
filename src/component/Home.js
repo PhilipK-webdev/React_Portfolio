@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid } from "@material-ui/core";
 
-const Home = ({ title, subheader, img, bio, avatar }) => {
+const Home = () => {
 
     return (
         <Grid container direction="column">

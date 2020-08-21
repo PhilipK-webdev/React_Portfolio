@@ -3,9 +3,11 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from './component/Header';
 import About from './component/About'
-import Portfolio from './component/Portfolio';
+// import Portfolio from './component/Portfolio';
 import Home from './component/Home';
 import images from './images/MySelf.jpg'
+import Footer from './component/Footer';
+
 
 function App() {
   const title = "Kouchner Philip";
@@ -22,9 +24,10 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/" component={Home} ><Home title={title} subheader={subheader} img={img} bio={bio} avatar={avatar} /></Route>
-          <Route exact path="/portfolio" component={Portfolio} />
+          {/* <Route exact path="/portfolio" component={Portfolio} /> */}
           <Route exact path="/about" component={About} />
         </Switch>
+        <Footer />
       </Router>
     </div >
   )
