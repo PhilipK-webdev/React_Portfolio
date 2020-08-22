@@ -28,7 +28,7 @@ const Header = () => {
                         <Link to="/" style={{ color: "white" }} >
                             <HomeIcon />
                         </Link>
-                        <Link to="/portfolio" style={{ color: "white" }}>
+                        <Link to="/projects" style={{ color: "white" }}>
                             <AlbumIcon />
                         </Link>
                         <Link to="/about" style={{ color: "white" }}>
