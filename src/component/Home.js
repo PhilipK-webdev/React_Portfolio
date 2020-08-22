@@ -13,7 +13,7 @@ const Home = (props) => {
         root: {
             width: 700,
             marginTop: "50px",
-            position: "fixed",
+            position: "absolut",
             flex: 1
         },
         bullet: {
@@ -56,7 +56,7 @@ const Home = (props) => {
 
         return (
             <div style={{ display: "flex", justifyContent: "center" }} theme={theme}>
-                <Card className={classes.root} style={{ backgroundColor: "#898da3" }} >
+                <Card className={classes.root} style={{ backgroundColor: "#898da3" }} position="absolut" >
                     <CardContent>
                         <Typography variant="h1" className={classes.title} color="textPrimary" gutterBottom>
                             {props.title}

@@ -26,18 +26,18 @@ const Header = () => {
                             </Link>
                     </Typography>
                     <div>
-                        <Link to="/" style={{ color: "white" }} >
-                            <Tooltip title="Home" arrow>
+                        <Link to="/" >
+                            <Tooltip title="Home" arrow style={{ color: "white" }}>
                                 <HomeIcon />
                             </Tooltip>
                         </Link>
-                        <Link to="/projects" style={{ color: "white" }}>
-                            <Tooltip title="Projects" arrow>
+                        <Link to="/projects">
+                            <Tooltip title="Projects" arrow style={{ color: "white" }}>
                                 <AlbumIcon />
                             </Tooltip>
                         </Link>
-                        <Link to="/about" style={{ color: "white" }}>
-                            <Tooltip title="Contact" arrow>
+                        <Link to="/about">
+                            <Tooltip title="Contact" arrow style={{ color: "white" }}>
                                 <ContactMailIcon />
                             </Tooltip>
                         </Link>
