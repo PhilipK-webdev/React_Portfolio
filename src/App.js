@@ -18,11 +18,19 @@ function App() {
 
   return (
     <div className="App">
+
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/" component={Home} ><Home title={title} subheader={subheader} img={img} bio={bio} /></Route>
-          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/">
+            <Home title={title} subheader={subheader} img={img} bio={bio} />
+          </Route>
+          <Route exact path="/React_Portfolio">
+            <Home title={title} subheader={subheader} img={img} bio={bio} />
+          </Route>
+          <Route exact path="/projects">
+            <Projects />
+          </Route>
           {/* <Route exact path="/about" component={About} /> */}
         </Switch>
         <Footer />
