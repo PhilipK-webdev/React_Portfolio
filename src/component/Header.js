@@ -5,6 +5,7 @@ import ContactMailIcon from '@material-ui/icons/ContactMail';
 import AlbumIcon from '@material-ui/icons/Album';
 import { makeStyles } from "@material-ui/styles";
 import { Link } from "react-router-dom";
+import Tooltip from '@material-ui/core/Tooltip';
 
 const useStyles = makeStyles(() => ({
     typographyStyles: {
@@ -26,13 +27,19 @@ const Header = () => {
                     </Typography>
                     <div>
                         <Link to="/" style={{ color: "white" }} >
-                            <HomeIcon />
+                            <Tooltip title="Home" arrow>
+                                <HomeIcon />
+                            </Tooltip>
                         </Link>
                         <Link to="/projects" style={{ color: "white" }}>
-                            <AlbumIcon />
+                            <Tooltip title="Projects" arrow>
+                                <AlbumIcon />
+                            </Tooltip>
                         </Link>
                         <Link to="/about" style={{ color: "white" }}>
-                            <ContactMailIcon />
+                            <Tooltip title="Contact" arrow>
+                                <ContactMailIcon />
+                            </Tooltip>
                         </Link>
                     </div>
                 </Toolbar>

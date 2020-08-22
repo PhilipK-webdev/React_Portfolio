@@ -6,6 +6,7 @@ import Home from './component/Home';
 import images from './images/ME.jpg'
 import Footer from './component/Footer';
 import Projects from './component/Projects';
+import About from './component/About';
 
 
 function App() {
@@ -17,8 +18,7 @@ function App() {
 
 
   return (
-    <div className="App">
-
+    <div >
       <Router>
         <Header />
         <Switch>
@@ -31,7 +31,9 @@ function App() {
           <Route exact path="/projects">
             <Projects />
           </Route>
-          {/* <Route exact path="/about" component={About} /> */}
+          <Route exact path="/about">
+            <About />
+          </Route>
         </Switch>
         <Footer />
       </Router>
