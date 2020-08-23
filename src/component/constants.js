@@ -6,23 +6,23 @@ import imgSQL from '../images/mySQL.PNG'
 
 export const SLIDE_INFO = [
     {
-        backgroundColor: '#ff7c7c', git: "https://github.com/PhilipK-webdev/Gif-search-app", gitLive: "https://philipk-webdev.github.io/Gif-search-app/",
+        backgroundColor: '#f6f4e6', git: "https://github.com/PhilipK-webdev/Gif-search-app", gitLive: "https://philipk-webdev.github.io/Gif-search-app/",
         image: imageGif, name: "Gif-search-app"
     },
     {
-        backgroundColor: '#ff7c7c', git: "https://github.com/PhilipK-webdev/StockTracker", gitLive: "https://app-stocktracker.herokuapp.com/",
+        backgroundColor: '#f7d1ba', git: "https://github.com/PhilipK-webdev/StockTracker", gitLive: "https://app-stocktracker.herokuapp.com/",
         image: imageProjetc1, name: "$tockTracker-app"
     },
     {
-        backgroundColor: '#ff7c7c', git: "https://github.com/PhilipK-webdev/Weather-Dashboard", gitLive: "https://philipk-webdev.github.io/Weather-Dashboard/",
+        backgroundColor: '#decdc3', git: "https://github.com/PhilipK-webdev/Weather-Dashboard", gitLive: "https://philipk-webdev.github.io/Weather-Dashboard/",
         image: weather, name: "Weather Dashboard"
     },
     {
-        backgroundColor: '#ff7c7c', git: "https://github.com/PhilipK-webdev/WorkDay-Scheduler", gitLive: "https://philipk-webdev.github.io/WorkDay-Scheduler/",
+        backgroundColor: '#f6f4e6', git: "https://github.com/PhilipK-webdev/WorkDay-Scheduler", gitLive: "https://philipk-webdev.github.io/WorkDay-Scheduler/",
         image: workDay, name: "WorkDay-Scheduler"
     },
     {
-        backgroundColor: '#ff7c7c', git: "https://github.com/PhilipK-webdev/Employee-Tracker", gitLive: "https://www.youtube.com/watch?v=oPUJK9GTxmM",
+        backgroundColor: '#faf3dd', git: "https://github.com/PhilipK-webdev/Employee-Tracker", gitLive: "https://www.youtube.com/watch?v=oPUJK9GTxmM",
         image: imgSQL, name: "Employee-Tracker"
     },
 ];

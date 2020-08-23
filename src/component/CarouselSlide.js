@@ -35,6 +35,8 @@ export default function CarouselSlide(props) {
             marginBottom: 12,
             width: "500px",
             height: "250px",
+            borderStyle: "solid",
+            borderColor: "red"
         },
     }));
 
@@ -44,7 +46,7 @@ export default function CarouselSlide(props) {
         <Card className={classes.card}>
             <CardContent>
                 <div>
-                    <h1 style={{ color: "blue" }}>{name}</h1>
+                    <h1 style={{ color: "blue", textDecoration: "underline" }}>{name}</h1>
                     <div style={{ display: "flex", textAlign: "center", margin: "10px", justifyContent: "flex-end" }}>
                         <Link color="inherit" href={git}>
                             <i

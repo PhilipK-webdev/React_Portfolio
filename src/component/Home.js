@@ -28,6 +28,8 @@ const Home = (props) => {
             marginBottom: 12,
             width: "300px",
             height: "400px",
+            borderStyle: "solid",
+            borderColor: "black"
         },
     });
 
@@ -53,16 +55,15 @@ const Home = (props) => {
     const classes = useStyles();
 
     function CardHome() {
-
         return (
             <div style={{ display: "flex", justifyContent: "center" }} theme={theme}>
                 <Card className={classes.root} style={{ backgroundColor: "#898da3" }} position="absolut" >
                     <CardContent>
-                        <Typography variant="h1" className={classes.title} color="textPrimary" gutterBottom>
-                            {props.title}
+                        <Typography className={classes.title} color="textPrimary" gutterBottom>
+                            <h1 style={{ color: "#bbe1fa" }}>{props.title}</h1>
                         </Typography>
                         <Typography variant="h6" component="h3">
-                            {props.subheader}
+                            <h3>{props.subheader}</h3>
                         </Typography>
                         <div style={{ display: "flex", justifyContent: "center", marginBottom: "30px" }}>
                             <Typography variant="body2" component="p" style={{ fontSize: "15px" }} color="primary">
@@ -76,7 +77,6 @@ const Home = (props) => {
                                 image={props.img}
                                 title="Paella dish"
                             />
-
                         </div>
                     </CardContent>
                 </Card >
