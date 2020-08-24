@@ -4,6 +4,7 @@ import './style/carousel.css'
 import { SLIDE_INFO } from './constants.js';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { Slide } from '@material-ui/core';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 
 const Projects = () => {
@@ -34,9 +35,9 @@ const Projects = () => {
             setSlideIn(true);
         }, 500);
     };
-
+    const matches = useMediaQuery('(min-width:600px)');
     return (
-        <div className='carousel'>
+        <div className='carousel' {...matches}>
             <Arrow
                 direction='left'
                 clickFunction={() => onArrowClick('left')}

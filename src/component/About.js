@@ -34,13 +34,13 @@ const About = () => {
         <Container maxWidth="sm" >
             <Card className={classes.root} >
                 <div className={classes.root}>
-                    <Link href="https://www.linkedin.com/in/philip-kouchner-886264100/">
+                    <Link href="https://www.linkedin.com/in/philip-kouchner-886264100/" style={{ marginRight: "15px" }}>
                         <LinkedInIcon fontSize={"large"} />
                     </Link>
-                    <Link href="mailto:philipk179@gmail.com" label={"test@example.com"}>
+                    <Link href="mailto:philipk179@gmail.com" label={"philipk179@gmail.com"} style={{ marginRight: "15px" }}>
                         <MailIcon fontSize={"large"} />
                     </Link>
-                    <Link href="https://github.com/PhilipK-webdev" >
+                    <Link href="https://github.com/PhilipK-webdev" style={{ marginRight: "15px" }} >
                         <GitHubIcon fontSize={"large"} />
                     </Link>
                 </div>

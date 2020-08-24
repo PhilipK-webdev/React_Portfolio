@@ -28,12 +28,12 @@ const Header = () => {
                     <div>
                         <Link to="/" >
                             <Tooltip title="Home" arrow >
-                                <HomeIcon style={{ color: "white" }} />
+                                <HomeIcon style={{ color: "white", marginRight: "15px" }} />
                             </Tooltip>
                         </Link>
                         <Link to="/projects">
                             <Tooltip title="Projects" arrow >
-                                <AlbumIcon style={{ color: "white" }} />
+                                <AlbumIcon style={{ color: "white", marginRight: "15px" }} />
                             </Tooltip>
                         </Link>
                         <Link to="/about">
