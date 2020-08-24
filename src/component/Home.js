@@ -60,10 +60,10 @@ const Home = (props) => {
                 <Card className={classes.root} style={{ backgroundColor: "#898da3" }} position="absolut" >
                     <CardContent>
                         <Typography className={classes.title} color="textPrimary" gutterBottom>
-                            <h1 style={{ color: "#bbe1fa" }}>{props.title}</h1>
+                            {props.title}
                         </Typography>
                         <Typography variant="h6" component="h3">
-                            <h3>{props.subheader}</h3>
+                            {props.subheader}
                         </Typography>
                         <div style={{ display: "flex", justifyContent: "center", marginBottom: "30px" }}>
                             <Typography variant="body2" component="p" style={{ fontSize: "15px" }} color="primary">
