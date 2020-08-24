@@ -8,7 +8,9 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 
 const Projects = () => {
+
     function Arrow(props) {
+
         const { direction, clickFunction } = props;
         const icon = direction === 'left' ? <FaChevronLeft /> : <FaChevronRight />;
 

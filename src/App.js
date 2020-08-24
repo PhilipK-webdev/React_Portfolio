@@ -15,7 +15,7 @@ function App() {
   const subheader = "Full Stack Web Developer";
   const img = images;
   const bio = "Currently studying at Berkley Extension as Full-Stack Web Developer.Looking for my new challenge in frontend, backend or Both. I'm a fast learner with excellent background in computers I like to learn new technologies and expand my knowledge in a variety of fields";
-
+  ``
 
   return (
     <div >
