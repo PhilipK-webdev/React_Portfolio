@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.87ebc7b4.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.b2d36e96.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.b2d36e96.chunk.js.map",
+    "main.css": "/React_Portfolio/static/css/main.0c8f55a2.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.29c4b6fe.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.29c4b6fe.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.55351a0a.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.55351a0a.js.map",
-    "static/js/2.04281969.chunk.js": "/React_Portfolio/static/js/2.04281969.chunk.js",
-    "static/js/2.04281969.chunk.js.map": "/React_Portfolio/static/js/2.04281969.chunk.js.map",
+    "static/js/2.2197cdba.chunk.js": "/React_Portfolio/static/js/2.2197cdba.chunk.js",
+    "static/js/2.2197cdba.chunk.js.map": "/React_Portfolio/static/js/2.2197cdba.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.af893a7193fff064335676550b3d9307.js": "/React_Portfolio/precache-manifest.af893a7193fff064335676550b3d9307.js",
+    "precache-manifest.42e1d133a8a4a67f59e5f7499af2bbc7.js": "/React_Portfolio/precache-manifest.42e1d133a8a4a67f59e5f7499af2bbc7.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
-    "static/css/main.87ebc7b4.chunk.css.map": "/React_Portfolio/static/css/main.87ebc7b4.chunk.css.map",
-    "static/js/2.04281969.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.04281969.chunk.js.LICENSE.txt",
+    "static/css/main.0c8f55a2.chunk.css.map": "/React_Portfolio/static/css/main.0c8f55a2.chunk.css.map",
+    "static/js/2.2197cdba.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.2197cdba.chunk.js.LICENSE.txt",
     "static/media/Gif-project.PNG": "/React_Portfolio/static/media/Gif-project.403a5165.PNG",
     "static/media/ME.jpg": "/React_Portfolio/static/media/ME.8e7875fe.jpg",
     "static/media/groupProject.PNG": "/React_Portfolio/static/media/groupProject.32d1ad9c.PNG",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.55351a0a.js",
-    "static/js/2.04281969.chunk.js",
-    "static/css/main.87ebc7b4.chunk.css",
-    "static/js/main.b2d36e96.chunk.js"
+    "static/js/2.2197cdba.chunk.js",
+    "static/css/main.0c8f55a2.chunk.css",
+    "static/js/main.29c4b6fe.chunk.js"
   ]
 }
