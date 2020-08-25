@@ -9,7 +9,7 @@ const Footer = () => {
     function Copyright() {
         return (
             <Typography variant="body2" color="textPrimary">
-                {'Copyright © '}
+                {'&copy;  Flex-FullStack Bootcamp, Inc. '}
                 <Link color="inherit" href="https://github.com/PhilipK-webdev">
                     My Github
       </Link>{' '}
@@ -42,7 +42,9 @@ const Footer = () => {
         <div className={classes.root}>
             <footer footer="true" className={classes.footer}>
                 <Container maxWidth="sm">
-                    <Typography variant="body1">Philp Kouchner</Typography>
+                    <Typography variant="body1">
+                        Made By Philip Kouchner
+                    </Typography>
                     <Copyright />
                 </Container>
             </footer>
