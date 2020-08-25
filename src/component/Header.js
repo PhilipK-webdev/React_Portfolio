@@ -10,7 +10,8 @@ import Tooltip from '@material-ui/core/Tooltip';
 const useStyles = makeStyles(() => ({
     typographyStyles: {
         flex: 1,
-        color: "white"
+        color: "white",
+        padding: 0
     },
 }));
 
