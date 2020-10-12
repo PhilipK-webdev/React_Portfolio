@@ -1,8 +1,11 @@
-
-# Introduction: Home Assignment React Portfolio
+  [![Generic badge](https://img.shields.io/badge/react-MIT-blue.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/github_pages.js-MIT-blue.svg)](https://shields.io/)
+  ![followers](https://img.shields.io/github/followers/PhilipK-webdev?logoColor=red&style=social)
+  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+# Introduction: React Portfolio
 
 Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
- Part of being a web developer means being a part of a community.
+Part of being a web developer means being a part of a community.
 ## User Story
 
 ```
@@ -10,13 +13,10 @@ As a user, I want to create a my portfolio using React.
 
 ```
 
-## Motivation
+## Screenshot
 
-```
-The last phase of the course is React. 
-Showing how to work with React and with new Framerwork Material-UI
+![](./src/images/react.PNG)
 
-```
 ## Getting Started
 
 ### `npm start`
@@ -26,11 +26,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
